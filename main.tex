@@ -1,0 +1,42 @@
+
+\documentclass[openany]{XDBT}
+
+\begin{document}
+
+%%----------SURFACE----------%%
+
+	%% Here you can fill your information:
+	
+	\title{西电本科毕业设计论文模板}
+	%\rtitle{} %If your title is overflowed in a line, split it here. Or, ignore it. 
+	\institute{计算机学院}
+	\major{计算机科学与技术}
+	\author{刘曜}
+	\advisor{Google}
+	%\class{}
+	%\studentNumber{}
+	\maketitle
+
+
+%%----------PROLOGUE---------%%
+	\frontmatter
+	\include{partial/0-abstract}
+	\tableofcontents
+
+%%----------MAIN PART--------%%
+	\mainmatter
+	\pagestyle{content}
+	\include{partial/1-prologue}
+	\include{partial/2-math}
+	\include{partial/3-figure}
+
+	\appendix
+\titleformat{\chapter}[hang]{\heiti\bfseries\center\zihao{3}}{附录{\thechapter}}{1em}{\zihao{3}}
+	\include{partial/A-rules}
+
+%%----------ACCESSORY--------%%
+    \backmatter
+    \include{partial/Z1-thanks}
+    \include{partial/Z2-bib}
+
+\end{document}

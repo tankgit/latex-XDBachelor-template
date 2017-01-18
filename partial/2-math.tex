@@ -1,0 +1,46 @@
+
+\chapter{数学相关}
+\label{chap:math}
+我稍微写写关于数学相关的语法，测试一下模板是否运行正确。
+\cite{mycite}。
+
+\section{公式}
+
+\begin{itemize}
+    \item 行内的公式一般用\$和\$，这两个之间夹着你要写的内容，示例：这样的写法(顺便也把代码块的写法测试了- -，代码块的样式在XDBT.cls里面有定义)%
+    \begin{lstlisting}
+    $a^2+b^2=c^2$
+    \end{lstlisting}
+    会得到$a^2+b^2=c^2$
+    \item 行间公式用\$\$和\$\$，示例：
+    \begin{lstlisting}
+    $$a^2+b^2=c^2$$
+    \end{lstlisting}
+    会得到$$a^2+b^2=c^2$$
+    \item 还有带编号的公式，我就不写代码了，你可以去看这个模板源码，效果：
+    \begin{equation}\label{eq:lim}
+        a^2+b^2=c^2
+    \end{equation}
+\end{itemize}
+
+\section{定理和定义}
+同样不贴代码了，只有演示效果
+\begin{thm}
+我是一个小定理～
+\end{thm}
+
+\begin{thm}
+我是另一个小定理，带公式的小定理～
+\begin{equation}
+    a^2+b^2=c^2
+\end{equation}
+\end{thm}
+
+\begin{algo}
+我是一个小算法～
+\end{algo}
+
+
+
+
+

@@ -1,0 +1,46 @@
+
+\chapter{表格图形}
+\label{chap:tabfig}
+
+\section{表格}
+示例1，中间有竖线的：
+\begin{center}
+\begin{tabular}[t]{l|c}
+    \hline
+    姓名 & 战斗力 \\
+    \hline
+    习XX & 999 \\
+    蛤XX & 9999 \\
+    川普 & 0.1 \\
+    \hline
+\end{tabular}
+\end{center}
+
+
+示例2，中间没竖线的：
+\begin{table}[htbp]
+ \caption{\label{tab:test}示例表格}
+ \centering
+ \begin{tabular}{lcl}
+  \toprule
+    姓名 & 战斗力 \\
+  \midrule
+    习XX & 999 \\
+    蛤XX & 9999 \\
+    川普 & 0.1 \\
+  \bottomrule
+ \end{tabular}
+\end{table}
+
+\section{图形}
+这玩意儿好像只能加eps的图，前面提到了，也给转换工具的网址了
+
+示例：
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.3\textwidth]{xdSign}
+ \caption{这是一个图片}
+ \label{fig:amss1}
+\end{figure}
+
+
