@@ -3,9 +3,13 @@
 
 ---
 >Established: 2017/01/13
+
 >Version: 1.0
+
 >Author: Derek Liu
+
 >Email: derektanko@gmail.com
+
 >GNU License
 
 
